@@ -180,7 +180,7 @@ function removeItem(myGroceryList, item) {
   }
   for (var i = 0; i < myGroceryList.length; i++) {
     if (myGroceryList[i] === item) {
-      myGroceryList.splice(myGroceryList[i], 1);
+      myGroceryList.splice(i, 1);
     }
   }
   return myGroceryList;
